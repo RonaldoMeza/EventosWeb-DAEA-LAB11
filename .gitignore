@@ -1,0 +1,53 @@
+# Compilación de .NET
+bin/
+obj/
+artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Resultados de pruebas y cobertura
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Paquetes y publicaciones locales
+packages/
+publish/
+*.nupkg
+*.snupkg
+
+# Bases de datos y archivos temporales locales
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secretos locales de desarrollo
+secrets.json
+appsettings.Local.json
+appsettings.*.Local.json
+
